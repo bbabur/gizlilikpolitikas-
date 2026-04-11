@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gizlilik Politikası — Namaz & Kıble</title>
+  <style>
+    body { font-family: system-ui, Segoe UI, Roboto, sans-serif; max-width: 720px; margin: 0 auto; padding: 24px; line-height: 1.6; color: #1a1a1a; }
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.1rem; margin-top: 1.5rem; }
+    p, li { font-size: 0.95rem; }
+    .muted { color: #555; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <h1>Gizlilik Politikası</h1>
+  <p class="muted"><strong>Namaz & Kıble</strong> (paket adı: <code>com.namazapp.kibla</code>)</p>
+  <p class="muted">Son güncelleme: 11 Nisan 2026</p>
+
+  <p>
+    Bu uygulama, namaz vakitleri, kıble yönü ve dini içerik sunmak amacıyla geliştirilmiştir.
+    Kişisel verilerinizi satmıyoruz ve reklam amaçlı profilleme yapmıyoruz.
+  </p>
+
+  <h2>1. Veri sorumlusu</h2>
+  <p>
+    Sorularınız için: <strong><a href="mailto:burakbabursah@gmail.com">burakbabursah@gmail.com</a></strong>
+  </p>
+
+  <h2>2. Toplanan veriler</h2>
+  <ul>
+    <li><strong>Konum (yaklaşık veya kesin):</strong> Namaz vakitlerinin bulunduğunuz bölgeye göre hesaplanması ve kıble açısının hesaplanması için kullanılır. Konum tercihen cihaz üzerinde işlenir; kendi sunucularımızda hesap adı veya e-posta gibi bir hesap oluşturmadığınız sürece konumunuzu kimlik bilginizle birlikte kaydetmiyoruz.</li>
+    <li><strong>Cihaz sensörleri:</strong> Kıble pusulası için manyetik alan / yön sensörü verisi yalnızca yerel olarak kullanılır; bu veri kalıcı olarak saklanmaz.</li>
+    <li><strong>Yerel depolama:</strong> Aşağıdaki bölümde açıklandığı gibi uygulama ayarları, önbellekler ve tercihler cihazınızda saklanır.</li>
+  </ul>
+
+  <h2>3. Verilerin nasıl saklandığı</h2>
+  <p>
+    Uygulama, hesap oluşturmanızı gerektirmez. Aşağıdaki bilgiler <strong>yalnızca cihazınızda</strong>,
+    Android ve iOS üzerinde uygulama verileri olarak (React Native <strong>AsyncStorage</strong> benzeri yerel depolama)
+    tutulur; bu verilere yalnızca sizin cihazınızdaki uygulama erişebilir:
+  </p>
+  <ul>
+    <li>Seçilen şehir / son kullanılan konum veya koordinatlar (vakit ve kıble için)</li>
+    <li>Namaz vakitleri önbelleği (ağdan alınan vakit verilerinin yerel kopyası)</li>
+    <li>Uygulama ayarları (ör. ikindi mezhebi, bildirim ve widget tercihleri)</li>
+    <li>Kur’an sure metinlerinin ve mealinin yerel önbelleği (isteğe bağlı, ağ üzerinden indirildikten sonra)</li>
+    <li>Zikir sayacı gibi uygulama içi tercihler</li>
+  </ul>
+  <p>
+    <strong>iOS ana ekran widget’ı</strong> kullanıyorsanız, widget’ın güncel vakitleri gösterebilmesi için
+    sınırlı veri Apple’ın uygulama grubu (App Group) paylaşılan alanında cihazınızda saklanabilir;
+    bu da yine sizin cihazınızda kalır, bizim tarafımızdan uzak sunucuya kişisel olarak aktarılmaz.
+  </p>
+  <p>
+    Namaz vakitleri hesaplaması için kullanılan <strong>üçüncü taraf API’lere</strong> (ör. konum veya şehir bilgisine göre)
+    istek atıldığında, bu istekler ilgili hizmet sağlayıcının sunucularına gidebilir; bu aktarımın kapsamı
+    o sağlayıcının teknik altyapısına bağlıdır. Kur’an metni/meal istekleri benzer şekilde ilgili içerik API’sine gider.
+  </p>
+  <p>
+    İsteğe bağlı olarak yapılandırılırsa, uygulama hata ayıklama için <strong>Sentry</strong> gibi bir hizmete
+    anonimleştirilmiş veya teknik kapsamlı çökme raporları gönderebilir; bu özellik yalnızca geliştirici tarafından
+    etkinleştirilmişse geçerlidir ve politikası Sentry’nin gizlilik bildirimine tabidir.
+  </p>
+
+  <h2>4. Verilerin ne kadar süreyle saklanması</h2>
+  <ul>
+    <li><strong>Genel uygulama verileri</strong> (ayarlar, son konum/şehir, widget tercihleri): Uygulamayı silene kadar veya aşağıda anlatıldığı gibi verileri siz temizleyene kadar cihazda kalır.</li>
+    <li><strong>Namaz vakitleri önbelleği:</strong> Yaklaşık <strong>24 saat</strong> içinde yenilenmesi beklenir; eski önbellek kayıtları uygulama mantığıyla periyodik olarak (ör. yaklaşık <strong>7 günden</strong> eski kayıtlar) temizlenebilir.</li>
+    <li><strong>Kur’an metni/meal önbelleği:</strong> Ağdan indirildikten sonra yerel depoda kalır; süresi dolmaz; uygulama verilerini silene kadar veya uygulamayı kaldırana kadar saklanır.</li>
+    <li><strong>Üçüncü taraf sunucularında</strong> oturum açmadığınız için, bizim adımıza “hesabınız” altında kalıcı bir profil tutulmaz; API sağlayıcıları kendi loglama sürelerine tabi olabilir.</li>
+  </ul>
+
+  <h2>5. Verilerin silinmesi ve kullanıcı kontrolü</h2>
+  <p>
+    Verileriniz büyük ölçüde cihazınızda olduğundan, silme işlemlerini aşağıdaki yollarla yapabilirsiniz:
+  </p>
+  <ul>
+    <li>
+      <strong>Android:</strong> <em>Ayarlar &gt; Uygulamalar &gt; Namaz &amp; Kıble &gt; Depolama</em> bölümünden
+      <strong>Önbelleği temizle</strong> ve/veya <strong>Verileri temizle</strong> seçeneğini kullanabilirsiniz.
+      “Verileri temizle”, uygulama içindeki yerel tüm verileri (ayarlar, önbellek, tercihler) siler.
+    </li>
+    <li>
+      <strong>Android / iOS:</strong> Uygulamayı cihazdan <strong>kaldırmak (sil)</strong>, uygulamaya ait yerel verilerin
+      tamamının işletim sistemi tarafından silinmesine yol açar.
+    </li>
+    <li>
+      <strong>Konum ve bildirimler:</strong> Konum iznini veya bildirim iznini cihaz ayarlarından kapatabilirsiniz;
+      izin kapatıldığında ilgili özellik çalışmayabilir, ancak daha önce saklanmış yerel veriler için yukarıdaki
+      “verileri temizle” adımlarını kullanmanız gerekir.
+    </li>
+  </ul>
+  <p>
+    Uygulama içinde ayrı bir “hesap sil” ekranı bulunmaz; kişisel veri işleme hesap tabanlı olmadığı için silme,
+    cihaz düzeyindeki yukarıdaki yöntemlerle sağlanır. Ek talepler için <a href="mailto:burakbabursah@gmail.com">burakbabursah@gmail.com</a>
+    adresinden bize yazabilirsiniz.
+  </p>
+
+  <h2>6. Bildirimler</h2>
+  <p>
+    İsterseniz namaz hatırlatıcıları veya widget ile ilgili bildirimler gösterilir.
+    Bildirimleri cihaz ayarlarından kapatabilirsiniz.
+  </p>
+
+  <h2>7. Üçüncü taraflar</h2>
+  <p>
+    Uygulama; Expo / Google Play dağıtım altyapısı, namaz vakitleri veya Kur’an içeriği için kullanılan içerik API’leri
+    ve isteğe bağlı hata raporlama (ör. Sentry) gibi hizmetleri kullanabilir.
+    Bu hizmetlerin gizlilik uygulamaları ilgili sağlayıcıların politikalarına tabidir.
+  </p>
+
+  <h2>8. Çocuklar</h2>
+  <p>
+    Uygulama özellikle çocuklardan bilerek veri toplamaya yönelik tasarlanmamıştır.
+  </p>
+
+  <h2>9. Haklarınız</h2>
+  <p>
+    Bulunduğunuz ülkenin mevzuatı çerçevesinde, verilerinize erişim ve düzeltme taleplerinde
+    yukarıdaki iletişim adresinden bize ulaşabilirsiniz. Verilerinizin büyük kısmı cihazda olduğundan,
+    erişim ve silme için cihaz ayarları (yukarıda) birincil yoldur.
+  </p>
+
+  <h2>10. Değişiklikler</h2>
+  <p>
+    Bu metin güncellenebilir. Önemli değişikliklerde uygulama veya mağaza sayfası üzerinden bilgilendirme yapılabilir.
+  </p>
+</body>
+</html>
