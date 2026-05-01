@@ -1,0 +1,116 @@
+# Privacy Policy — HydroMind
+
+**Effective date:** May 1, 2026  
+
+**Last updated:** May 1, 2026  
+
+This Privacy Policy describes how **HydroMind** (“the App”, “we”, “us”) handles information when you use our mobile application published by the developer behind this project. By using the App, you agree to this policy.
+
+---
+
+## Summary
+
+- We **do not operate a login or user account** in the App. **We do not run our own servers** to store your hydration data.
+- Your **water logs and preferences are stored locally** on your device.
+- **Google AdMob** may process data to show ads. See Google’s disclosures linked below.
+- **Reminders** use your device’s **notification** features when you grant permission.
+
+If you disagree with how data is handled, please **uninstall** the App and **avoid using** notification or ad-supported features where applicable.
+
+---
+
+## 1. Who we are
+
+The App is operated by an **independent developer** (publisher of HydroMind).  
+
+**Contact:** replace this line with your public contact email — e.g. `[YOUR_CONTACT_EMAIL]` — for privacy-related requests.
+
+---
+
+## 2. Information the App processes
+
+### 2.1 Data stored on your device (local storage)
+
+The App stores the following **on your device only** using local storage mechanisms (no HydroMind-hosted cloud sync):
+
+- **Settings**, such as: onboarding completion, daily goal, weight used for suggestions, wake/sleep times, reminder intervals, theme preference, measurement units (ml/other), notification sound preference, and similar app configuration.
+- **Water intake logs** — amounts and timestamps you log in the App.
+
+You can **clear or remove** this data through in-app controls where available or by **clearing app data / uninstalling** the App.
+
+We **do not** receive this content on our servers, because **we do not provide a backend login or sync service** in the App as shipped.
+
+---
+
+## 3. Notifications
+
+If you **enable reminders** and grant notification permission (Android/iOS):
+
+- The App **schedules local notifications** on your device according to your settings.
+- Processing may involve **Apple** (push/notification subsystem on iOS) or **Google** (Android/Firebase-related components as required by the operating system).
+
+We **do not** collect the **content** of your notifications remotely for our own databases as part of normal App behavior described here.
+
+Disable notifications in **system settings** for HydroMind at any time.
+
+---
+
+## 4. Advertising (Google AdMob)
+
+The App may display **advertisements** delivered through **Google Mobile Ads / AdMob** (Google Ireland Limited / Google LLC, depending on region).
+
+Advertising partners may collect and use identifiers and related signals to **measure, personalize, limit frequency, and combat fraud**. That processing is governed by **Google’s policies and your device settings**:
+
+- Google’s Privacy & Terms: <https://policies.google.com/privacy>  
+- How Google uses data from apps: <https://policies.google.com/technologies/partner-sites>
+
+You may be able to **opt out of ads personalization** through your device (e.g. Android **Ads settings / Advertising ID**) and through industry tools described by Google where available.
+
+---
+
+## 5. Other technical data
+
+Like most mobile apps, the App and SDKs involved may indirectly process technical information required for **stability, security, billing of ads, fraud prevention**, and compliance with platforms (Apple / Google). We do **not** sell your personal information.
+
+---
+
+## 6. Analytics
+
+The App does **not** integrate a standalone third-party **analytics SDK** solely for HydroMind-hosted analytics in this codebase snapshot. Advertising SDKs **may perform measurement** as described in Section 4.
+
+---
+
+## 7. Children’s privacy
+
+The App is **not directed at children** under 13 (or under the minimum age defined in your region). **Do not** use the App if you are under that age. If you believe a child has provided personal data in a way that concerns you, contact us at the email in Section 1.
+
+---
+
+## 8. International users (including EEA / UK)
+
+If you are in the **European Economic Area**, the **UK**, or **Switzerland**, certain rights may apply under **GDPR** or local law (e.g. access, rectification, erasure, restriction, objection, portability, and the right to lodge a complaint with a supervisory authority).  
+
+Because most data is **on your device**, you can often exercise **erasure** by **deleting app data** or **uninstalling**. For requests related to data processed by **Google** for ads, please also use **Google’s tools and settings** described in their policies.
+
+---
+
+## 9. Data retention
+
+- **Local app data** remains until you **delete** it or **uninstall** the App.
+- **Ad partners** retain data according to **their** policies (see Google).
+
+---
+
+## 10. Changes to this policy
+
+We may update this Privacy Policy from time to time. The **“Last updated”** date at the top will change when we do. Continued use of the App after changes means you accept the updated policy, unless applicable law requires otherwise.
+
+---
+
+## 11. Open-source / repository note (optional hosting)
+
+If you host this policy from a GitHub repository, substitute the contact section with a working email **before** publishing the store listing.
+
+---
+
+© HydroMind developer. All rights reserved.
