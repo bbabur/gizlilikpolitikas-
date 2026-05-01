@@ -1,0 +1,67 @@
+# Privacy Policy / Gizlilik Politikası
+
+**Akciğer Sağlık** · Android paket adı: `com.bbabur.akcigersaglik`
+
+Last Updated / Son Güncelleme: 2026-04-12
+
+---
+
+## English
+
+### Information we process
+Health-related inputs you provide (for example age, smoking habits, exercise, breath quality) are **processed on your device**. Summary scores and related app state may be **stored on your device** (local storage) so they can persist between sessions. **We do not operate a backend that receives your health questionnaire answers from the app.**
+
+The optional **“I quit smoking”** section stores your quit date, badges, certificates, pledge text, and related preferences **only on your device**. This data is **not transmitted** to our servers by the app (we do not collect it centrally).
+
+### Advertising
+The app may show **Google AdMob** ads (for example banner and interstitial formats). Google may process data according to Google’s policies. See: [Google Privacy Policy](https://policies.google.com/privacy).
+
+### Third-party services (examples)
+- **Google (AdMob):** ad delivery and measurement as described by Google.
+- **Expo / EAS (if enabled):** the published build may use Expo tooling for over-the-air updates; update manifests are served by Expo’s infrastructure. Health inputs you type in the app are not sent to us as a form submission through this policy’s “app author” channel.
+
+### Data retention
+Data stored locally remains until you uninstall the app or clear app data / storage from device settings, unless the app provides an in-app reset.
+
+### Health disclaimer
+The app is **informational / wellness-oriented** and is **not** a substitute for professional medical advice, diagnosis, or treatment.
+
+### Children’s privacy
+The app is not directed at children under 13. We do not knowingly collect personal information from children.
+
+### Changes
+We may update this policy; the date at the top will change.
+
+### Contact
+Questions: burakbabursah@gmail.com
+
+---
+
+## Türkçe
+
+### İşlediğimiz bilgiler
+Girdiğiniz sağlıkla ilgili bilgiler (ör. yaş, sigara, egzersiz, nefes algısı) **cihazınızda işlenir**. Özet puan ve ilgili uygulama durumu, oturumlar arasında kalması için **cihazınızda yerel olarak saklanabilir**. **Uygulama geliştiricisi olarak anket cevaplarınızı merkezi bir sunucuya toplamıyoruz.**
+
+İsteğe bağlı **“Sigarayı Bıraktım”** bölümünde bırakma tarihi, rozetler, sertifikalar, sözleşme metni ve tercihler **yalnızca cihazınızda** tutulur; uygulama bu verileri **bize iletmez**.
+
+### Reklamlar
+Uygulama **Google AdMob** ile reklam gösterebilir (ör. banner, geçiş reklamı). Google, kendi politikalarına göre veri işleyebilir: [Google Gizlilik Politikası](https://policies.google.com/privacy).
+
+### Üçüncü taraf hizmetler (örnekler)
+- **Google (AdMob):** reklam sunumu ve ölçümü.
+- **Expo / EAS (etkinse):** yayımlanan sürüm, güncelleme için Expo altyapısından yararlanabilir. Ankette yazdığınız sağlık girdileri bu politika kapsamında “uygulama sahibi”ne form olarak gönderilmez.
+
+### Saklama
+Yerel veriler; uygulamayı silene veya cihaz ayarlarından uygulama verisini temizleyene kadar kalır (uygulama içi sıfırlama seçenekleri varsa bunlar da geçerlidir).
+
+### Sağlık uyarısı
+Uygulama **bilgilendirme / farkındalık** amaçlıdır; **tıbbi teşhis, tedavi veya profesyonel danışmanlığın yerine geçmez**.
+
+### Çocukların gizliliği
+Uygulama 13 yaş altına yönelik değildir; çocuklardan bilerek kişisel veri toplamayız.
+
+### Değişiklikler
+Politikayı güncelleyebiliriz; üstteki tarih değişir.
+
+### İletişim
+Sorularınız: **[EMAIL_ADRESINIZ]**
