@@ -1,194 +1,159 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Master - Gizlilik Politikası / Privacy Policy</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: #0F0F23;
-            color: #E0E0F0;
-            line-height: 1.7;
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: #1A1A35;
-            border-radius: 24px;
-            padding: 40px;
-            border: 1px solid #252547;
-        }
-        .header {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-        .header h1 {
-            color: #6C63FF;
-            font-size: 28px;
-            margin-bottom: 8px;
-        }
-        .header p {
-            color: #B0B0CC;
-            font-size: 14px;
-        }
-        .lang-switch {
-            display: flex;
-            justify-content: center;
-            gap: 12px;
-            margin-bottom: 32px;
-        }
-        .lang-btn {
-            padding: 10px 24px;
-            border-radius: 30px;
-            border: 2px solid #6C63FF;
-            background: transparent;
-            color: #6C63FF;
-            font-size: 14px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s;
-        }
-        .lang-btn.active {
-            background: #6C63FF;
-            color: #FFF;
-        }
-        .section { display: none; }
-        .section.active { display: block; }
-        h2 {
-            color: #00D9FF;
-            font-size: 20px;
-            margin: 28px 0 12px 0;
-            padding-bottom: 8px;
-            border-bottom: 1px solid #252547;
-        }
-        h2:first-of-type { margin-top: 0; }
-        p { margin-bottom: 12px; color: #D0D0E8; }
-        ul {
-            margin: 8px 0 16px 24px;
-            color: #D0D0E8;
-        }
-        li { margin-bottom: 6px; }
-        .highlight {
-            background: #6C63FF20;
-            border-left: 4px solid #6C63FF;
-            padding: 16px 20px;
-            border-radius: 0 12px 12px 0;
-            margin: 16px 0;
-        }
-        .footer {
-            text-align: center;
-            margin-top: 40px;
-            padding-top: 20px;
-            border-top: 1px solid #252547;
-            color: #B0B0CC;
-            font-size: 13px;
-        }
-        a { color: #6C63FF; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz Master – Gizlilik Politikası / Privacy Policy</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f5f5f5;
+      color: #222;
+      line-height: 1.7;
+      padding: 24px 16px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 12px;
+      padding: 40px 36px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+    }
+    h1 { font-size: 1.8rem; color: #1a1a2e; margin-bottom: 6px; }
+    .subtitle { font-size: 0.95rem; color: #666; margin-bottom: 32px; }
+    h2 { font-size: 1.15rem; color: #1a1a2e; margin: 28px 0 8px; border-left: 4px solid #6c63ff; padding-left: 10px; }
+    p { margin-bottom: 10px; }
+    ul { margin: 8px 0 10px 20px; }
+    li { margin-bottom: 6px; }
+    .lang-divider {
+      border: none;
+      border-top: 2px dashed #ddd;
+      margin: 48px 0;
+    }
+    a { color: #6c63ff; }
+    .updated { font-size: 0.85rem; color: #888; margin-top: 32px; }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>🧠 Quiz Master</h1>
-            <p>Gizlilik Politikası / Privacy Policy</p>
-        </div>
+<div class="container">
 
-        <div class="lang-switch">
-            <button class="lang-btn active" onclick="switchLang('tr')">🇹🇷 Türkçe</button>
-            <button class="lang-btn" onclick="switchLang('en')">🇬🇧 English</button>
-        </div>
+  <!-- ===== TÜRKÇE ===== -->
+  <h1>Gizlilik Politikası</h1>
+  <p class="subtitle">Uygulama: <strong>Quiz Master</strong> &nbsp;|&nbsp; Geliştirici: <strong>Burak Babür</strong></p>
 
-        <!-- TÜRKÇE -->
-        <div id="tr" class="section active">
-            <h2>Genel Bakış</h2>
-            <p>Bu gizlilik politikası, <strong>Quiz Master</strong> mobil uygulamasının ("Uygulama") kullanıcı verilerini nasıl işlediğini açıklamaktadır.</p>
-            <p><strong>Son güncelleme:</strong> 8 Nisan 2026</p>
+  <p>
+    Bu gizlilik politikası, <strong>Quiz Master</strong> uygulamasının kullanıcı verilerini nasıl topladığını,
+    kullandığını ve koruduğunu açıklamaktadır.
+  </p>
 
-            <h2>Toplanan Veriler</h2>
-            <div class="highlight">
-                <p><strong>Quiz Master hiçbir kişisel veri toplamaz.</strong> Uygulama tamamen çevrimdışı çalışır ve internet bağlantısı gerektirmez.</p>
-            </div>
+  <h2>1. Toplanan Veriler</h2>
+  <p>Quiz Master aşağıdaki verileri toplayabilir:</p>
+  <ul>
+    <li>Kullanıcı adı ve e-posta adresi (hesap oluşturma sırasında)</li>
+    <li>Oyun içi ilerleme ve puan bilgileri</li>
+    <li>Cihaz türü ve işletim sistemi sürümü</li>
+    <li>Uygulama kullanım istatistikleri (çarpışma raporları dahil)</li>
+  </ul>
 
-            <h2>Yerel Depolama</h2>
-            <p>Uygulama yalnızca cihazınızda yerel olarak aşağıdaki bilgileri saklar:</p>
-            <ul>
-                <li>Oyuncu adı (kullanıcı tarafından girilen)</li>
-                <li>Oyun skorları ve istatistikler</li>
-                <li>Skor tablosu verileri</li>
-                <li>Dil tercihi</li>
-            </ul>
-            <p>Bu veriler yalnızca cihazınızda tutulur, hiçbir sunucuya gönderilmez ve üçüncü taraflarla paylaşılmaz.</p>
+  <h2>2. Verilerin Kullanım Amacı</h2>
+  <p>Toplanan veriler şu amaçlarla kullanılır:</p>
+  <ul>
+    <li>Liderlik tablosu ve oyun içi rekabet özelliklerini sunmak</li>
+    <li>Uygulama performansını iyileştirmek ve hataları gidermek</li>
+    <li>Kullanıcı deneyimini kişiselleştirmek</li>
+  </ul>
 
-            <h2>Üçüncü Taraf Hizmetleri</h2>
-            <p>Bu uygulama herhangi bir üçüncü taraf analiz, reklam veya izleme hizmeti kullanmamaktadır. Hiçbir veri dış kaynaklarla paylaşılmaz.</p>
+  <h2>3. Üçüncü Taraf Hizmetler</h2>
+  <p>
+    Uygulama; Firebase (Google LLC) ve Supabase gibi üçüncü taraf hizmetler kullanmaktadır.
+    Bu hizmetler kendi gizlilik politikaları kapsamında çalışmaktadır.
+  </p>
 
-            <h2>Çocukların Gizliliği</h2>
-            <p>Uygulama çocuklar dahil her yaş grubu için uygundur. Hiçbir kullanıcıdan kişisel bilgi toplanmaz.</p>
+  <h2>4. Veri Güvenliği</h2>
+  <p>
+    Kullanıcı verileriniz şifreleme ve güvenli bağlantı protokolleri (HTTPS) aracılığıyla korunmaktadır.
+    Verileriniz üçüncü taraflara satılmaz veya kiralanmaz.
+  </p>
 
-            <h2>Veri Güvenliği</h2>
-            <p>Tüm veriler yalnızca cihazınızın yerel depolama alanında tutulur. Uygulamayı sildiğinizde tüm veriler otomatik olarak kaldırılır.</p>
+  <h2>5. Çocukların Gizliliği</h2>
+  <p>
+    Quiz Master, 13 yaş altı çocuklardan bilerek kişisel veri toplamamaktadır.
+    13 yaş altı bir çocuğun veri sağladığını fark ederseniz lütfen bizimle iletişime geçin.
+  </p>
 
-            <h2>Değişiklikler</h2>
-            <p>Bu gizlilik politikası zaman zaman güncellenebilir. Değişiklikler bu sayfada yayınlanacaktır. Uygulamayı kullanmaya devam etmeniz, güncellenmiş politikayı kabul ettiğiniz anlamına gelir.</p>
+  <h2>6. Veri Silme Talebi</h2>
+  <p>
+    Hesabınıza ve verilerinize ilişkin silme talebinde bulunmak için aşağıdaki e-posta adresiyle iletişime geçebilirsiniz.
+  </p>
 
-            <h2>İletişim</h2>
-            <p>Gizlilik politikası ile ilgili sorularınız için bizimle iletişime geçebilirsiniz:</p>
-            <p>📧 E-posta: <a href="mailto:bbabur@email.com">bbabur@email.com</a></p>
-        </div>
+  <h2>7. İletişim</h2>
+  <p>
+    Gizlilik politikasına ilişkin sorularınız için:<br />
+    <strong>Geliştirici:</strong> Burak Babür<br />
+    <strong>E-posta:</strong> <a href="mailto:bbabur@example.com">bbabur@example.com</a>
+  </p>
 
-        <!-- ENGLISH -->
-        <div id="en" class="section">
-            <h2>Overview</h2>
-            <p>This privacy policy explains how the <strong>Quiz Master</strong> mobile application ("App") handles user data.</p>
-            <p><strong>Last updated:</strong> April 8, 2026</p>
+  <hr class="lang-divider" />
 
-            <h2>Data Collection</h2>
-            <div class="highlight">
-                <p><strong>Quiz Master does not collect any personal data.</strong> The application works entirely offline and does not require an internet connection.</p>
-            </div>
+  <!-- ===== ENGLISH ===== -->
+  <h1>Privacy Policy</h1>
+  <p class="subtitle">App: <strong>Quiz Master</strong> &nbsp;|&nbsp; Developer: <strong>Burak Babür</strong></p>
 
-            <h2>Local Storage</h2>
-            <p>The app only stores the following information locally on your device:</p>
-            <ul>
-                <li>Player name (entered by the user)</li>
-                <li>Game scores and statistics</li>
-                <li>Leaderboard data</li>
-                <li>Language preference</li>
-            </ul>
-            <p>This data is stored only on your device, is never sent to any server, and is never shared with third parties.</p>
+  <p>
+    This Privacy Policy describes how <strong>Quiz Master</strong>, developed by <strong>Burak Babür</strong>,
+    collects, uses, and protects user data.
+  </p>
 
-            <h2>Third-Party Services</h2>
-            <p>This application does not use any third-party analytics, advertising, or tracking services. No data is shared with external sources.</p>
+  <h2>1. Information We Collect</h2>
+  <p>Quiz Master may collect the following information:</p>
+  <ul>
+    <li>Username and email address (upon account creation)</li>
+    <li>In-game progress and score data</li>
+    <li>Device type and operating system version</li>
+    <li>App usage statistics (including crash reports)</li>
+  </ul>
 
-            <h2>Children's Privacy</h2>
-            <p>The app is suitable for all age groups, including children. No personal information is collected from any user.</p>
+  <h2>2. How We Use Your Data</h2>
+  <p>Collected data is used to:</p>
+  <ul>
+    <li>Provide leaderboard and competitive game features</li>
+    <li>Improve app performance and fix bugs</li>
+    <li>Personalize the user experience</li>
+  </ul>
 
-            <h2>Data Security</h2>
-            <p>All data is stored only in your device's local storage. When you uninstall the app, all data is automatically removed.</p>
+  <h2>3. Third-Party Services</h2>
+  <p>
+    The app uses third-party services such as Firebase (Google LLC) and Supabase,
+    which operate under their own privacy policies.
+  </p>
 
-            <h2>Changes</h2>
-            <p>This privacy policy may be updated from time to time. Changes will be posted on this page. Your continued use of the app constitutes acceptance of the updated policy.</p>
+  <h2>4. Data Security</h2>
+  <p>
+    Your data is protected using encryption and secure connection protocols (HTTPS).
+    We do not sell or rent your data to third parties.
+  </p>
 
-            <h2>Contact</h2>
-            <p>If you have any questions about this privacy policy, you can contact us:</p>
-            <p>📧 Email: <a href="mailto:bbabur@email.com">bbabur@email.com</a></p>
-        </div>
+  <h2>5. Children's Privacy</h2>
+  <p>
+    Quiz Master does not knowingly collect personal data from children under the age of 13.
+    If you believe a child under 13 has provided us with personal information, please contact us.
+  </p>
 
-        <div class="footer">
-            <p>© 2026 Quiz Master. All rights reserved.</p>
-        </div>
-    </div>
+  <h2>6. Data Deletion Request</h2>
+  <p>
+    To request deletion of your account and associated data, please contact us at the email address below.
+  </p>
 
-    <script>
-        function switchLang(lang) {
-            document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
-            document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
-            document.getElementById(lang).classList.add('active');
-            event.target.classList.add('active');
-        }
-    </script>
+  <h2>7. Contact</h2>
+  <p>
+    For any questions about this Privacy Policy:<br />
+    <strong>Developer:</strong> Burak Babür<br />
+    <strong>E-mail:</strong> <a href="mailto:bbabur@example.com">bbabur@example.com</a>
+  </p>
+
+  <p class="updated">Last updated: May 3, 2026</p>
+</div>
 </body>
 </html>
